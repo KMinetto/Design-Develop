@@ -51,10 +51,27 @@ h2 {
     transition: .7s;
 }
 
+.grey-bg {
+    background-color: #e9e9e9;
+}
+
+.pro-skills {
+    margin-top: 41px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.progress-bar-grey {
+    background-color: #d8d8d8;
+    height: 3px;
+    width: 501px;
+}
+
 /** ID **/
 
-#container-bg {
+#bg {
     background-image: url("../images/banner-bg.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -77,6 +94,37 @@ h2 {
 #signature {
     margin-top: 40px;
     margin-bottom: 100px;
+}
+
+#skills {
+    margin-top: 166px;
+    font-size: 3.0rem;
+}
+
+#half-grey {
+    background-color: #e9e9e9;
+}
+
+#ui {
+    background-color: #10c9c3;
+    height: 3px;
+    width: 75%;
+}
+
+#develop {
+    background-color: #10c9c3;
+    height: 3px;
+    width: 90%;
+}
+
+#marketing {
+    background-color: #10c9c3;
+    height: 3px;
+    width: 65%;
+}
+
+#progressBar {
+    margin-bottom: 164px;
 }
 
 /** Effects **/
