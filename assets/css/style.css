@@ -4,6 +4,10 @@ html {
     font-size: 62.5%;
 }
 
+a {
+    transition: .5s;
+}
+
 li.active a {
     color: #10c9c3;
 }
@@ -44,8 +48,11 @@ h1 {
 
 /** ID **/
 
-#container {
-    background-color: #e9e9e9;
+#container-bg {
+    background-image: url("../images/banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 #design {
@@ -58,6 +65,10 @@ h1 {
 }
 
 /** Effects **/
+
+a:hover {
+    color: white;
+}
 
 button:hover {
     background-color: #fff;
