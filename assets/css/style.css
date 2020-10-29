@@ -16,6 +16,11 @@ h1 {
     font-size: 3.8rem;
 }
 
+h2 {
+    margin-top: 102px;
+    font-size: 3.0rem;
+}
+
 /** Class **/
 
 .nav-link {
@@ -62,6 +67,16 @@ h1 {
 #new-design {
     margin-top: 40px;
     font-size: 1.8rem;
+}
+
+#about {
+    margin-top: 40px;
+    font-size: 1.6rem;
+}
+
+#signature {
+    margin-top: 40px;
+    margin-bottom: 100px;
 }
 
 /** Effects **/
