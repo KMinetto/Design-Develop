@@ -1,0 +1,11 @@
+/** Style **/
+
+.nav-link {
+    color: black;
+    font-size: 12pt;
+    text-decoration: none;
+}
+
+li.active a {
+    color: #10c9c3;
+}
