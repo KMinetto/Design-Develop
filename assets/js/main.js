@@ -7,4 +7,4 @@ li.forEach(el => {
 
         el.classList.add('active');
     })
-})
+});
