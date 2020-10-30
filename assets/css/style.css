@@ -125,10 +125,27 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
+.services {
+    margin-top: 100px;
+}
+
+.services-title {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.services-para {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.6rem;
+}
+
 /** ID **/
 
 #bg {
-    background-image: url("../images/banner-bg.jpg");
+    background-image: url("../images/header/banner-bg.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -214,6 +231,10 @@ h2 {
 
 #video {
     margin-bottom: 100px;
+}
+
+#bow {
+    font-weight: bold;
 }
 
 /** Effects **/
