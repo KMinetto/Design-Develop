@@ -19,7 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="edc7c151-c832-46ac-a171-65146ff10f5c" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="edc7c151-c832-46ac-a171-65146ff10f5c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Design&amp;Develop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Design&amp;Develop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/header/banner-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+>>>>>>> testi
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +82,13 @@
       <recent name="C:\wamp64\www\Design&amp;Develop\assets\images" />
       <recent name="C:\wamp64\www\Design&amp;Develop" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Design&amp;Develop\assets\images\header" />
+      <recent name="C:\wamp64\www\Design&amp;Develop\assets\images\about" />
+      <recent name="C:\wamp64\www\Design&amp;Develop\assets\images\skill" />
+      <recent name="C:\wamp64\www\Design&amp;Develop\assets\images\work" />
+      <recent name="C:\wamp64\www\Design&amp;Develop\assets\images\services" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,6 +104,7 @@
       <workItem from="1604047138088" duration="15884000" />
       <workItem from="1604079011068" duration="803000" />
       <workItem from="1604085713914" duration="4125000" />
+      <workItem from="1604334571935" duration="14632000" />
     </task>
     <servers />
   </component>
@@ -113,5 +133,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="468" y="202" key="EditFileWatcherDialog/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1604001860188" />
+    <state x="579" y="171" key="FileChooserDialogImpl" timestamp="1604341632124">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="579" y="171" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1604341632124" />
   </component>
 </project>

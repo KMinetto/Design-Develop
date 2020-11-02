@@ -9,6 +9,10 @@ const endFeed = 612;
 const endClients = 735;
 let animateFigures = true
 
+let slideIndex = 1;
+
+/** NavBar **/
+
 li.forEach(el => {
     el.addEventListener('click', () => {
         ul.querySelector('.active').classList.remove('active');
@@ -16,6 +20,8 @@ li.forEach(el => {
         el.classList.add('active');
     })
 });
+
+/** Figures section **/
 
 function animateValue(id, start, end, duration, animateFigures) {
     if (animateFigures) {
@@ -44,3 +50,8 @@ document.addEventListener('scroll', () => {
         animateFigures = false;
     }
 });
+
+/** Carousel section **/
+
+
+
