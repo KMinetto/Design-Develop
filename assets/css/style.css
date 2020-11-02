@@ -48,7 +48,7 @@ h2 {
     border: none;
     font-size: 1.2rem;
     text-transform: uppercase;
-    transition: .7s;
+    transition: .6s;
 }
 
 .grey-bg {
@@ -127,6 +127,7 @@ h2 {
 
 .services {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .services-title {
@@ -142,14 +143,41 @@ h2 {
     font-size: 1.6rem;
 }
 
+.carousel-div {
+    min-height: 100%;
+}
+
+.carousel-sec {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.carousel-quotes {
+    height: 100%;
+    font-size: 1.98rem;
+    font-weight: bold;
+}
+
+.signature {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /** ID **/
 
 #bg {
-    background-image: url("../images/header/banner-bg.jpg");
+    background-image: url("../images/header/bg-6.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
 }
 
 #design {
@@ -237,15 +265,27 @@ h2 {
     font-weight: bold;
 }
 
+#testimonials {
+    height: 500px;
+}
+
+#container-carousel {
+    height: 100%;
+}
+
+#row, #myCarousel, #carousel-inner{
+    height: 100%;
+}
+
 /** Effects **/
 
 a:hover {
     color: white;
 }
 
-button:hover {
-    background-color: #fff;
-    color: #10c9c3;
+button:hover, button:focus {
+    /*background: linear-gradient(to right, #10c9c3 80%, transparent);*/
+    border-radius: 30px;
 }
 
 .container-img:hover .work-img {
