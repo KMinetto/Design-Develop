@@ -9,8 +9,6 @@ const endFeed = 612;
 const endClients = 735;
 let animateFigures = true
 
-let slideIndex = 1;
-
 /** NavBar **/
 
 li.forEach(el => {
