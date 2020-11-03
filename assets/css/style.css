@@ -170,6 +170,11 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
+.client-list {
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
 /** ID **/
 
 #bg {
