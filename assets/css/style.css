@@ -8,6 +8,14 @@ a {
     transition: .5s;
 }
 
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
 li.active a {
     color: #10c9c3;
 }
@@ -208,6 +216,20 @@ h2 {
     transition: .7s;
 }
 
+.black-bg {
+    background-color: #141414;
+}
+
+.list {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.foot {
+    font-size: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 /** ID **/
 
 #bg {
@@ -323,6 +345,12 @@ h2 {
 
 #form {
     margin-top: 40px;
+}
+
+#piroll {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 25px;
 }
 
 /** Effects **/
