@@ -21,6 +21,21 @@ h2 {
     font-size: 3.0rem;
 }
 
+ #first-name, #last-name {
+    /*width: 320px;*/
+    height: 45px;
+}
+
+ #title, #text-area {
+     margin-top: 30px;
+     width: 670px;
+     height: 45px;
+ }
+
+ #text-area {
+     height: 170px;
+ }
+
 /** Class **/
 
 .nav-link {
@@ -175,6 +190,24 @@ h2 {
     margin-bottom: 65px;
 }
 
+.inputs {
+    border: none;
+    height: 50px;
+}
+
+.button-message {
+    width: 180px;
+    height: 54px;
+    color: #fff;
+    background-color: #10c9c3;
+    border: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    transition: .7s;
+}
+
 /** ID **/
 
 #bg {
@@ -280,6 +313,16 @@ h2 {
 
 #row, #myCarousel, #carousel-inner{
     height: 100%;
+}
+
+#agency {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.6rem;
+    margin-top: 40px;
+}
+
+#form {
+    margin-top: 40px;
 }
 
 /** Effects **/
