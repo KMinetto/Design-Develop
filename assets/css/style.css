@@ -20,25 +20,9 @@ li.active a {
     color: #10c9c3;
 }
 
-h1 {
-    font-size: 3.8rem;
-}
-
 h2 {
     margin-top: 102px;
-    font-size: 3.0rem;
 }
-
- #first-name, #last-name {
-    /*width: 320px;*/
-    height: 45px;
-}
-
- #title, #text-area {
-     margin-top: 30px;
-     width: 670px;
-     height: 45px;
- }
 
  #text-area {
      height: 170px;
@@ -53,27 +37,6 @@ h2 {
     text-decoration: none;
 }
 
-.monserrat {
-    font-family: 'Montserrat', sans-serif;
-}
-
-.myriad {
-    font-family: "Myriad Pro", serif;
-}
-
-.button-contact {
-    margin-top: 43px;
-    margin-bottom: 201px;
-    width: 180px;
-    height: 54px;
-    color: #fff;
-    background-color: #10c9c3;
-    border: none;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    transition: .6s;
-}
-
 .grey-bg {
     background-color: #e9e9e9;
 }
@@ -85,7 +48,6 @@ h2 {
 .pro-skills {
     margin-top: 41px;
     text-transform: uppercase;
-    font-size: 1.2rem;
 }
 
 .progress-bar-grey {
@@ -98,12 +60,7 @@ h2 {
     font-size: 5.0rem;
 }
 
-.figure-font {
-    font-size: 1.8rem;
-}
-
 .stats-font {
-    font-size: 1.2rem;
     text-transform: uppercase;
 }
 
@@ -122,21 +79,6 @@ h2 {
     backface-visibility: hidden;
 }
 
-.button-work {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 180px;
-    height: 54px;
-    color: #fff;
-    background-color: #10c9c3;
-    border: none;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    transition: .7s;
-}
-
 .middle {
     width: 100%;
     height: 100%;
@@ -148,72 +90,15 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
-.services {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.services-title {
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
-.services-para {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 1.6rem;
-}
-
-.carousel-div {
-    min-height: 100%;
-}
-
-.carousel-sec {
-    min-height: 100%;
-    overflow: hidden;
-}
-
-.carousel-quotes {
-    height: 100%;
-    font-size: 1.98rem;
-    font-weight: bold;
-}
-
 .signature {
     text-transform: uppercase;
     color: #ffffff;
 }
 
-.carousel-item {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 
 .client-list {
-    margin-top: 65px;
-    margin-bottom: 65px;
-}
-
-.inputs {
-    border: none;
-    height: 50px;
-}
-
-.button-message {
-    width: 180px;
-    height: 54px;
-    color: #fff;
-    background-color: #10c9c3;
-    border: none;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    margin-top: 30px;
-    margin-bottom: 100px;
-    transition: .7s;
+    margin: 65px 0;
 }
 
 .black-bg {
@@ -221,13 +106,7 @@ h2 {
 }
 
 .list {
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-.foot {
-    font-size: 1.5rem;
-    font-family: 'Nunito Sans', sans-serif;
+    margin: 100px 0;
 }
 
 /** ID **/
@@ -246,22 +125,18 @@ h2 {
 
 #new-design {
     margin-top: 40px;
-    font-size: 1.8rem;
 }
 
 #about {
     margin-top: 40px;
-    font-size: 1.6rem;
 }
 
 #signature {
-    margin-top: 40px;
-    margin-bottom: 100px;
+    margin: 40px 0 100px 0;
 }
 
 #skills {
     margin-top: 166px;
-    font-size: 3.0rem;
 }
 
 #half-grey {
@@ -290,37 +165,6 @@ h2 {
     margin-bottom: 164px;
 }
 
-#ul-margin {
-    margin: 100px 0;
-}
-
-#load {
-    height: 100px;
-}
-
-#load-more {
-    text-transform: uppercase;
-    font-size: 1.2rem;
-}
-
-#process {
-    font-size: 3.0rem;
-    font-weight: bold;
-}
-
-#process-para {
-    font-size: 1.6rem;
-}
-
-#processpara {
-    margin-top: 40px;
-    margin-bottom: 57px;
-}
-
-#video {
-    margin-bottom: 100px;
-}
-
 #bow {
     font-weight: bold;
 }
@@ -338,8 +182,6 @@ h2 {
 }
 
 #agency {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 1.6rem;
     margin-top: 40px;
 }
 
@@ -348,7 +190,6 @@ h2 {
 }
 
 #piroll {
-    font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: 25px;
 }
