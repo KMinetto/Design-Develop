@@ -6,6 +6,7 @@
 /** Variables **/
 $white: #fff;
 $blue: #10c9c3;
+$black: #000;
 
 /** Default **/
 
@@ -75,10 +76,39 @@ $blue: #10c9c3;
 /** ID **/
 
 // Header
+.nav-link {
+  color: $black;
+}
 
 // About
 #margin-h2 {
   @include margin(margin, 100, 0, 0, 0);
+}
+
+// Skills
+//#skill-bar {
+//  position: relative;
+//  height: 570px;
+//
+//  #progressBar {
+//    margin: 0;
+//    height: 100%;
+//    @include margin(padding, 164, 85, 164, 100);
+//  }
+//  #img-container {
+//    //position: absolute;
+//    top: 0;
+//    right: 0;
+//    height: 100%;
+//    #skill-img {
+//      height: 100%;
+//      width: 100%;
+//    }
+//  }
+//}
+
+#img-container {
+  height: 100vh;
 }
 
 // Works
@@ -112,7 +142,15 @@ $blue: #10c9c3;
   width: width(670px);
 }
 
+#text-area {
+  height: height(170px);
+}
+
 // Footer
 #black-bg {
 
 }
+
+/** Media querries **/
+
+@me

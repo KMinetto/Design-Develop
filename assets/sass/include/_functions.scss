@@ -23,11 +23,12 @@ $families: (
 }
 
 $fontSizes: (
-  "12": 1.2rem, "15": 1.5rem, "16": 1.6rem, "18": 1.8rem, "19": 1.98rem, "30": 3.0rem, "38": 3.8rem, "50":  5.0rem
+  "12": 1.2rem, "15": 1.5rem, "16": 1.6rem, "18": 1.8rem,
+        "19": 1.98rem, "30": 3.0rem, "38": 3.8rem, "50":  5.0rem
 );
 
 @each $fontSize, $i in $fontSizes {
-  h1, h2, h3, p, {
+  h1, h2, h3, p, span, i {
     &.font#{$fontSize} {
       font-size: $i;
     }
