@@ -1,0 +1,29 @@
+@import "functions";
+
+@mixin absolutePosition($position, $top, $left) {
+  position: $position;
+  top: $top;
+  left: $left;
+  transform: translate(-$top, -$left);
+}
+
+@mixin dimension($propertyH, $propertyW, $height, $width) {
+  #{$propertyH}: height($height);
+  #{$propertyW}: width($width);
+}
+
+@mixin margin($property, $marginT, $marginR, $marginB, $marginL) {
+  #{$property}: $marginT + px $marginR + px $marginB + px $marginL + px;
+}
+
+@mixin font($property, $style, $size) {
+  #{$property}: $style $size;
+}
+
+@mixin button($color, $backColor, $border, $textTrans) {
+  color: $color;
+  background-color: $backColor;
+  border: $border;
+  text-transform: $textTrans;
+}
+

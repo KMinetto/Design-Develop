@@ -16,6 +16,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/sass/style.css">
         <title>We Design & Develop</title>
     </head>
     <body>
@@ -28,27 +29,29 @@
                     <div class="col-7 mt-5">
                         <nav>
                             <ul class="d-flex justify-content-end nav">
-                                <li class="myriad nav-item active"><a class="nav-link" href="#">Home</a></li>
-                                <li class="myriad nav-item"><a class="nav-link" href="#">About</a></li>
-                                <li class="myriad nav-item"><a class="nav-link" href="#">Work</a></li>
-                                <li class="myriad nav-item"><a class="nav-link" href="#">Process</a></li>
-                                <li class="myriad nav-item"><a class="nav-link" href="#">Services</a></li>
-                                <li class="myriad nav-item"><a class="nav-link" href="#">Testimonials</a></li>
-                                <li class="myriad nav-item"><a class="nav-link" href="#">Contact</a></li>
+                                <li class="monserrat font12 nav-item active"><a class="nav-link" href="#">Home</a></li>
+                                <li class="monserrat font12 nav-item"><a class="nav-link" href="#">About</a></li>
+                                <li class="monserrat font12 nav-item"><a class="nav-link" href="#">Work</a></li>
+                                <li class="monserrat font12 nav-item"><a class="nav-link" href="#">Process</a></li>
+                                <li class="monserrat font12 nav-item"><a class="nav-link" href="#">Services</a></li>
+                                <li class="monserrat font12 nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+                                <li class="monserrat font12 nav-item"><a class="nav-link" href="#">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
                 </div>
                 <div id="design" class="row">
                     <div class="col-12">
-                        <div class="offset-6">
-                            <h1 class="monserrat">We Design and Develop</h1>
-                            <p id="new-design" class="myriad text-secondary">
+                        <div class="col-12 col-md-6 offset-md-6">
+                            <h1 class="monserrat font38">We Design and Develop</h1>
+                            <p id="new-design" class="font18 monserrat text-secondary">
                                 We are a new design studio based in USA. We have over
                                 20 years of combined experience, and know a thing or two
                                 about designing websites and mobile apps.
                             </p>
-                            <button class="button-contact myriad" type="button">Contact us</button>
+                        </div>
+                        <div class="col-12 col-md-6 offset-md-6 d-flex justify-content-center justify-content-md-start">
+                            <button class="button monserrat font12" type="button">Contact us</button>
                         </div>
                     </div>
                 </div>
@@ -57,36 +60,36 @@
         <main>
             <section>
                 <div class="container">
-                    <div class="row">
-                        <div class="offset-3 col-6">
-                            <h2 class="text-center monserrat">About Us</h2>
-                            <p id="about" class="text-center myriad">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-12 col-md-6">
+                            <h2 id="margin-h2" class="font30 monserrat text-center">About Us</h2>
+                            <p id="about" class="font16 monserrat text-center">
                                 Divide have don't man wherein air fourth. Own itself make have night won't make.
                                 A you under Seed appear which good give. Own give air without fowl moveth dry first
                                 heaven fruit, dominion she'd won't very all.
                             </p>
                         </div>
-                        <div class="col-12">
-                            <img id="signature" class="offset-5" src="assets/images/about/signature.png" alt="">
+                        <div class="col-12 d-flex justify-content-center">
+                            <img id="signature" src="assets/images/about/signature.png" alt="">
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="half-grey">
+            <section class="grey">
                 <div class="container">
                     <div class="row">
                         <div class="col-6">
                             <div id="progressBar" class="col-12">
-                                <h3 id="skills" class="monserrat">Professional Skills</h3>
-                                <p class="pro-skills monserrat">ui/ux design <span class="ml-5">75%</span></p>
+                                <h3 id="skills" class="font30 monserrat">Professional Skills</h3>
+                                <p class="pro-skills font12 monserrat">ui/ux design <span class="ml-5">75%</span></p>
                                 <div class="progress-bar-grey">
                                     <div id="ui"></div>
                                 </div>
-                                <p class="pro-skills monserrat">web development <span class="ml-5">90%</span></p>
+                                <p class="pro-skills font12 monserrat">web development <span class="ml-5">90%</span></p>
                                 <div class="progress-bar-grey">
                                     <div id="develop"></div>
                                 </div>
-                                <p class="pro-skills monserrat">marketing <span class="ml-5">65%</span></p>
+                                <p class="pro-skills font12 monserrat">marketing <span class="ml-5">65%</span></p>
                                 <div class="progress-bar-grey">
                                     <div id="marketing"></div>
                                 </div>
@@ -98,49 +101,55 @@
                     </div>
                 </div>
             </section>
-            <section id="skill" class="blue-bg">
+            <section id="skill" class="blue">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
-                            <ul id="ul-margin" class="d-flex justify-content-between text-white">
-                                <li class="d-flex">
-                                    <div>
-                                        <span><i class="fas fa-briefcase font"></i></span>
-                                    </div>
-                                    <div class="ml-4">
-                                        <p id="projects" class="monserrat figure-font" data-target="548">0</p>
-                                        <p class="monserrat stats-font">Projects completed</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex">
-                                    <div>
-                                        <span><i class="far fa-clock font"></i></span>
-                                    </div>
-                                    <div class="ml-4">
-                                        <p id="hours" class="monserrat figure-font" data-target="1475">0</p>
-                                        <p class="monserrat stats-font">Working Hours</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex">
-                                    <div>
-                                        <span><i class="far fa-star font"></i></span>
-                                    </div>
-                                    <div class="ml-4">
-                                        <p id="feed" class="monserrat figure-font" data-target="612">0</p>
-                                        <p class="monserrat stats-font">Positives Feedback</p>
-                                    </div>
-                                </li>
-                                <li class="d-flex">
-                                    <div>
-                                        <span><i class="far fa-heart font"></i></span>
-                                    </div>
-                                    <div class="ml-4">
-                                        <p id="clients" class="monserrat figure-font" data-target="735">0</p>
-                                        <p class="monserrat stats-font">Happy Clients</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
+<!--                        <div class="col-12">-->
+                            <div class="col-12 col-md-6">
+                                <ul class="list d-flex justify-content-around text-white">
+                                    <li class="d-flex">
+                                        <div>
+                                            <span><i class="fas fa-briefcase font"></i></span>
+                                        </div>
+                                        <div class="ml-4">
+                                            <p id="projects" class="monserrat font18" data-target="548">0</p>
+                                            <p class="monserrat font12 stats-font">Projects completed</p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <div>
+                                            <span><i class="far fa-clock font"></i></span>
+                                        </div>
+                                        <div class="ml-4">
+                                            <p id="hours" class="monserrat font18" data-target="1475">0</p>
+                                            <p class="monserrat font12 stats-font">Working Hours</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <ul class="list d-flex justify-content-around text-white">
+                                    <li class="d-flex">
+                                        <div>
+                                            <span><i class="far fa-star font"></i></span>
+                                        </div>
+                                        <div class="ml-4">
+                                            <p id="feed" class="monserrat font18" data-target="612">0</p>
+                                            <p class="monserrat font12 stats-font">Positives Feedback</p>
+                                        </div>
+                                    </li>
+                                    <li class="d-flex">
+                                        <div>
+                                            <span><i class="far fa-heart font"></i></span>
+                                        </div>
+                                        <div class="ml-4">
+                                            <p id="clients" class="monserrat font18" data-target="735">0</p>
+                                            <p class="monserrat font12 stats-font">Happy Clients</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+<!--                        </div>-->
                     </div>
                 </div>
             </section>
@@ -149,58 +158,60 @@
                     <div class="container-img">
                         <img class="work-img" src="assets/images/work/photo1.png" alt="1st work">
                         <div class="middle">
-                            <button class="button-work" type="button">View Project</button>
+                            <button class="font12 button-works" type="button">View Project</button>
                         </div>
                     </div>
                     <div class="container-img">
                         <img class="work-img" width="337" height="300" src="assets/images/services/photo2.png" alt="2nd work">
                         <div class="middle">
-                            <button class="button-work" type="button">View Project</button>
+                            <button class="font12 button-works" type="button">View Project</button>
                         </div>
                     </div>
                     <div class="container-img">
                         <img class="work-img" width="337" height="300" src="assets/images/work/photo3.png" alt="3rd work">
                         <div class="middle">
-                            <button class="button-work" type="button">View Project</button>
+                            <button class="font12 button-works" type="button">View Project</button>
                         </div>
                     </div>
                     <div class="container-img">
                         <img class="work-img" width="337" height="300" src="assets/images/work/photo4.png" alt="4th work">
                         <div class="middle">
-                            <button class="button-work" type="button">View Project</button>
+                            <button class="font12 button-works" type="button">View Project</button>
                         </div>
                     </div>
                     <div class="container-img">
                         <img class="work-img" width="337" height="300" src="assets/images/work/photo5.png" alt="5th work">
                         <div class="middle">
-                            <button class="button-work" type="button">View Work</button>
+                            <button class="font12 button-works" type="button">View Work</button>
                         </div>
                     </div>
                     <div class="container-img">
                         <img class="work-img" width="337" height="300" src="assets/images/work/photo6.png" alt="6th work">
                         <div class="middle">
-                            <button class="button-work" type="button">View Work</button>
+                            <button class="font12 button-works" type="button">View Work</button>
                         </div>
                     </div>
                     <div class="container-img">
                         <img class="work-img" width="337" height="300" src="assets/images/work/photo7.png" alt="7th work">
                         <div class="middle">
-                            <button class="button-work" type="button">View Work</button>
+                            <button class="font12 button-works" type="button">View Work</button>
                         </div>
                     </div>
                     <div class="container-img">
                         <img class="work-img" width="337" height="300" src="assets/images/work/photo8.png" alt="8th work">
                         <div class="middle">
-                            <button class="button-work" type="button">View Work</button>
+                            <button class="font12 button-works" type="button">View Work</button>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="grey-bg">
+            <section class="grey">
                 <div class="container">
                     <div class="row">
                         <div id="load" class="col-12 d-flex justify-content-center align-items-center">
-                            <p id="load-more" class="monserrat"><a id="anchor-load" class="text-secondary nav-link" href="#">Load More Work</a></p>
+                            <p id="load-more" class="font12 monserrat">
+                                <a id="anchor-load" class="text-secondary nav-link" href="#">Load More Work</a>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -208,14 +219,16 @@
             <section>
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
-                            <h2 id="process" class="monserrat text-center">Our Work Process</h2>
-                        </div>
-                        <div id="processpara" class="offset-3 col-6">
-                            <p id="process-para" class="text-secondary text-center">
-                                Was years it seasons was there form he in in them together over that,
-                                third sixth gathered female creeping bearing behold years.
-                            </p>
+                        <div class="col-12 col-md-6 offset-md-3">
+                            <div>
+                                <h2 id="process" class="font30 monserrat text-center">Our Work Process</h2>
+                            </div>
+                            <div id="processpara" class="">
+                                <p id="process-para" class="font16 monserrat text-secondary text-center">
+                                    Was years it seasons was there form he in in them together over that,
+                                    third sixth gathered female creeping bearing behold years.
+                                </p>
+                            </div>
                         </div>
                         <div id="video" class="col-12">
 <!--                            <iframe width="1140" height="570" src="https://www.youtube.com/embed/SBB1YtwODT0" frameborder="0"-->
@@ -225,57 +238,57 @@
                     </div>
                 </div>
             </section>
-            <section class="grey-bg">
+            <section class="grey">
                 <div class="container">
                     <div class="row">
                         <div class="services col-12 col-md-6 d-flex flex-wrap">
                             <div class="col-6 text-center">
                                 <div><img src="assets/images/services/diamond.png" alt=""></div>
-                                <h3 class="services-title monserrat">UI/UX Design</h3>
-                                <p class="services-para text-secondary">Be set fourth god darkness make it wherein own</p>
+                                <h3 class="services-title font12 monserrat">UI/UX Design</h3>
+                                <p class=" nunito font16 text-secondary">Be set fourth god darkness make it wherein own</p>
                             </div>
                             <div class="col-6 text-center">
                                 <div><img id="bow" class="font" src="assets/images/services/bow.png" alt=""></div>
-                                <h3 class="services-title monserrat">Web Development</h3>
-                                <p class="services-para text-secondary">A she'd bring void moving third she'd kind fill</p>
+                                <h3 class="services-title font12 monserrat">Web Development</h3>
+                                <p class=" nunito font16 text-secondary">A she'd bring void moving third she'd kind fill</p>
                             </div>
                             <div class="col-6 text-center">
                                 <div><img src="assets/images/services/plane.png" alt=""></div>
-                                <h3 class="services-title monserrat">SEO / Marketing</h3>
-                                <p class="services-para text-secondary">Give wont after land fill creeping meat you, may</p>
+                                <h3 class="services-title font12 monserrat">SEO / Marketing</h3>
+                                <p class="nunito font16 text-secondary">Give wont after land fill creeping meat you, may</p>
                             </div>
                             <div class="col-6 text-center">
                                 <div><img src="assets/images/services/star.png" alt=""></div>
-                                <h3 class="services-title monserrat">Photography</h3>
-                                <p class="services-para text-secondary">Creepeth one seas castle grass give morning saw give</p>
+                                <h3 class="services-title font12 monserrat">Photography</h3>
+                                <p class="nunito font16 text-secondary">Creepeth one seas castle grass give morning saw give</p>
                             </div>
                         </div>
                         <div class="services col-12 col-md-6 d-flex flex-wrap">
                             <div class="col-6 text-center">
                                 <div><img src="assets/images/services/phone.png" alt=""></div>
-                                <h3 class="services-title monserrat">App / Mobile</h3>
-                                <p class="services-para text-secondary">Dominion second spirit he. earth they're creeping</p>
+                                <h3 class="services-title font12 monserrat">App / Mobile</h3>
+                                <p class="nunito font16 text-secondary">Dominion second spirit he. earth they're creeping</p>
                             </div>
                             <div class="col-6 text-center">
                                 <div><img src="assets/images/services/joy.png" alt=""></div>
-                                <h3 class="services-title monserrat">Game Design</h3>
-                                <p class="services-para text-secondary">Morning his saying moveth it multiply appear life be</p>
+                                <h3 class="services-title font12 monserrat">Game Design</h3>
+                                <p class="nunito font16 text-secondary">Morning his saying moveth it multiply appear life be</p>
                             </div>
                             <div class="col-6 text-center">
                                 <div><img src="assets/images/services/magic-wand.png" alt=""></div>
-                                <h3 class="services-title monserrat">Graphic Design</h3>
-                                <p class="services-para text-secondary">Open, great whales air rules for, fourth life whales</p>
+                                <h3 class="services-title font12 monserrat">Graphic Design</h3>
+                                <p class="nunito font16 text-secondary">Open, great whales air rules for, fourth life whales</p>
                             </div>
                             <div class="col-6 text-center">
                                 <div><img src="assets/images/services/paint-bucket.png" alt=""></div>
-                                <h3 class="services-title monserrat">Illustrations</h3>
-                                <p class="services-para text-secondary">Whales likeness hath, man kind for them air two won't</p>
+                                <h3 class="services-title font12 monserrat">Illustrations</h3>
+                                <p class="nunito font16 text-secondary">Whales likeness hath, man kind for them air two won't</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section id="testimonials" class="blue-bg carousel-sec">
+            <section id="testimonials" class="blue carousel-sec">
                 <div id="container-carousel" class="container">
                     <div id="row" class="row">
                         <div class="col-12">
@@ -283,7 +296,7 @@
                                 <div id="carousel-inner" class="carousel-inner">
                                     <div id="carousel-item" class="carousel-item active">
                                         <div class="carousel-div active col-10 offset-1">
-                                            <p class="carousel-quotes monserrat text-center">
+                                            <p class="carousel-quotes font19 monserrat text-center">
                                                 "Any fool can write code that a computer can understand. Good programmers write code that humans can
                                                 understand"</p>
                                             <p class="text-center signature">Martin Flower</p>
@@ -291,7 +304,7 @@
                                     </div>
                                     <div class="carousel-item">
                                         <div class="carousel-div col-10 offset-1">
-                                            <p class="carousel-quotes monserrat text-center">
+                                            <p class="carousel-quotes font19 monserrat text-center">
                                                 "Outstanding job and exceeded alla expectations. It was a pleasure to work with them on a sizable first
                                                 project and am looking forward to start the next one asap."</p>
                                             <p class="text-center signature">Michael hopkins</p>
@@ -299,7 +312,7 @@
                                     </div>
                                     <div class="carousel-item">
                                         <div class="carousel-div col-10 offset-1">
-                                            <p class="carousel-quotes monserrat text-center">
+                                            <p class="carousel-quotes font19 monserrat text-center">
                                                 "Experience is the name everyone gives to their mistakes"</p>
                                             <p class="text-center signature">Oscar Wilde</p>
                                         </div>
@@ -327,24 +340,24 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12">
-                            <div class="client-list d-flex justify-content-md-around flex-wrap">
-                                <img src="assets/images/clients/handmade.png" alt="Logo premier client">
-                                <img src="assets/images/clients/mountain.png" alt="Logo deuxième client">
-                                <img src="assets/images/clients/collection.png" alt="Logo troisième client">
-                                <img src="assets/images/clients/vintage.png" alt="Logo quatrième client">
-                                <img src="assets/images/clients/mountainbike.png" alt="Logo cinquième client">
+                            <div class="client-list d-flex  justify-content-around flex-wrap flex-md-nowrap">
+                                <img class=" ml-md-0" src="assets/images/clients/handmade.png" alt="Logo premier client">
+                                <img class="ml-5 ml-md-0" src="assets/images/clients/mountain.png" alt="Logo deuxième client">
+                                <img class="mt-5 mt-md-0" src="assets/images/clients/collection.png" alt="Logo troisième client">
+                                <img class="mt-5 mt-md-0 ml-5 ml-md-0" src="assets/images/clients/vintage.png" alt="Logo quatrième client">
+                                <img class="ml-5 ml-md-0 mt-5 mt-md-0" src="assets/images/clients/mountainbike.png" alt="Logo cinquième client">
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="grey-bg">
+            <section class="grey">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center">
                             <div>
                                 <h2>Need a Project?</h2>
-                                <p id="agency" class="col-12 col-md-6 offset-md-3 text-secondary text-center">
+                                <p id="agency" class="nunito font16 col-12 col-md-6 offset-md-3 text-secondary text-center">
                                     Let us know what you're looking for in an agency. We'll take a look and see if this
                                     could be the start of something beautiful
                                 </p>
@@ -363,12 +376,12 @@
                                     </div>
                                 </div>
                                 <div class="form-group col-12 col-md-8 offset-md-2 d-md-flex justify-content-md-center">
-                                    <input type="text" class="form-control col-12" id="title" placeholder="Your Email">
+                                    <input type="text" class="form-control col-12" id="title" placeholder="Your Title">
                                 </div>
                                 <div class="form-group col-12 col-md-8 offset-md-2 d-md-flex justify-content-md-center">
                                     <textarea type="text" class="form-control col-12" id="text-area" placeholder="Your Comment"></textarea>
                                 </div>
-                                <button type="submit" class="button-contact">Send message</button>
+                                <button type="submit" class="button">Send message</button>
                             </form>
                         </div>
                     </div>
@@ -382,23 +395,23 @@
                         <div>
                             <ul>
                                 <li>
-                                    <p id="piroll" class="monserrat text-white">Piroll Design, Inc.</p>
+                                    <p id="piroll" class="font18 monserrat text-white">Piroll Design, Inc.</p>
                                 </li>
                                 <li>
-                                    <p class="text-white foot">© 2017 Piroll. All rights reserved.</p>
+                                    <p class="text-white font15 nunito">© 2017 Piroll. All rights reserved.</p>
                                 </li>
                                 <li>
-                                    <p class="text-white foot">Designed by robirurk</p>
+                                    <p class="text-white font15 nunito">Designed by robirurk</p>
                                 </li>
                             </ul>
                         </div>
                         <div>
                             <ul>
                                 <li>
-                                    <p class="text-white foot">hello@pirolltheme.com</p>
+                                    <p class="text-white font15 nunito">hello@pirolltheme.com</p>
                                 </li>
                                 <li>
-                                    <p class="text-white foot">+44 987 065 908</p>
+                                    <p class="text-white font15 nunito">+44 987 065 908</p>
                                 </li>
                             </ul>
                         </div>
@@ -409,16 +422,16 @@
                                 <li>
                                     <ul>
                                         <li>
-                                            <p class="text-white foot">Projects</p>
+                                            <p class="text-white font15 nunito">Projects</p>
                                         </li>
                                         <li>
-                                            <p class="text-white foot">About</p>
+                                            <p class="text-white font15 nunito">About</p>
                                         </li>
                                         <li>
-                                            <p class="text-white foot">Services</p>
+                                            <p class="text-white font15 nunito">Services</p>
                                         </li>
                                         <li>
-                                            <p class="text-white foot">Carrier</p>
+                                            <p class="text-white font15 nunito">Carrier</p>
                                         </li>
                                     </ul>
                                 </li>
@@ -431,16 +444,16 @@
                                 <li>
                                     <ul>
                                         <li>
-                                            <p class="text-white foot">News</p>
+                                            <p class="text-white font15 nunito">News</p>
                                         </li>
                                         <li>
-                                            <p class="text-white foot">Events</p>
+                                            <p class="text-white font15 nunito">Events</p>
                                         </li>
                                         <li>
-                                            <p class="text-white foot">Contact</p>
+                                            <p class="text-white font15 nunito">Contact</p>
                                         </li>
                                         <li>
-                                            <p class="text-white foot">Legals</p>
+                                            <p class="text-white font15 nunito">Legals</p>
                                         </li>
                                     </ul>
                                 </li>
@@ -453,16 +466,16 @@
                                 <li>
                                     <ul>
                                         <li>
-                                            <p class="text-white foot">Facebook</p>
+                                            <p class="text-white font15 nunito">Facebook</p>
                                         </li>
                                         <li>
-                                            <p class="text-white foot">Twitter</p>
+                                            <p class="text-white font15 nunito">Twitter</p>
                                         </li>
                                         <li>
-                                            <p class="text-white foot">Instagram</p>
+                                            <p class="text-white font15 nunito">Instagram</p>
                                         </li>
                                         <li>
-                                            <p class="text-white foot">Dribbble</p>
+                                            <p class="text-white font15 nunito">Dribbble</p>
                                         </li>
                                     </ul>
                                 </li>

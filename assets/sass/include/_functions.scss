@@ -1,0 +1,43 @@
+$bgColours: (
+  "grey": #e9e9e9, "blue": #10c9c3
+);
+
+@each $bgColour, $i in $bgColours {
+  section {
+    &.#{$bgColour} {
+      background-color: $i;
+    }
+  }
+}
+
+$families: (
+  "nunito": 'Nunito Sans, sans-serif', "monserrat": 'Monserrat, sans-serif'
+);
+
+@each $family, $i in $families {
+  h1, h2, p {
+    &.#{$family} {
+      font-family: $i;
+    }
+  }
+}
+
+$fontSizes: (
+  "12": 1.2rem, "15": 1.5rem, "16": 1.6rem, "18": 1.8rem, "19": 1.98rem, "30": 3.0rem, "38": 3.8rem, "50":  5.0rem
+);
+
+@each $fontSize, $i in $fontSizes {
+  h1, h2, h3, p, {
+    &.font#{$fontSize} {
+      font-size: $i;
+    }
+  }
+}
+
+@function height($height) {
+  @return $height;
+}
+
+@function width($width) {
+  @return $width;
+}

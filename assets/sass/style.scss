@@ -1,0 +1,118 @@
+/** Imports **/
+
+@import "include/_mixins";
+@import "include/_functions";
+
+/** Variables **/
+$white: #fff;
+$blue: #10c9c3;
+
+/** Default **/
+
+/** Classes **/
+
+// Banner
+
+// About
+.margin {
+  @include margin(margin, 100, 0, 100, 0);
+}
+
+// Works
+.button-works {
+  @include absolutePosition(absolute, 50%, 50%);
+  @include dimension(height, width, 54px, 180px);
+  @include button($white, $blue, none, uppercase);
+  transition: .7s;
+}
+
+// Services
+.services {
+  @include margin(margin, 100, 0, 100, 0);
+  .services-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    @include margin(margin, 30, 0, 20, 0);
+  }
+}
+
+// Testimonials
+.carousel-sec {
+  min-height: 100%;
+  overflow: hidden;
+
+  .carousel-item {
+    @include absolutePosition(absolute, 50%, 50%);
+    .carousel-div {
+      min-height: 100%;
+      .carousel-quotes {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+// Contact
+.inputs {
+  border: none;
+  height: height(50px);
+}
+
+// Footer
+
+// Others
+.button {
+  @include margin(margin, 43, 0, 200, 0);
+  @include dimension(height, width, 54px, 180px);
+  @include button($white, $blue, none, uppercase);
+  transition: .7s;
+}
+
+.list {
+  @include margin(margin, 100, 0, 100, 0);
+}
+
+/** ID **/
+
+// Header
+
+// About
+#margin-h2 {
+  @include margin(margin, 100, 0, 0, 0);
+}
+
+// Works
+#load {
+  height: height(100px);
+  #load-more {
+    text-transform: uppercase;
+  }
+}
+
+// Process
+#process {
+  font-weight: bold;
+}
+#processpara {
+  @include margin(margin, 40, 0, 57, 0);
+
+}
+#video {
+  @include margin(margin, 0, 0, 100, 0);
+}
+
+// Contact
+#first-name, #last-name, #title {
+  /*width: 320px;*/
+  height: height(45px);
+}
+
+#title, #text-area {
+  margin-top: 30px;
+  width: width(670px);
+}
+
+// Footer
+#black-bg {
+
+}
