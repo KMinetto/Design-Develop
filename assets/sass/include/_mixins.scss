@@ -27,3 +27,16 @@
   text-transform: $textTrans;
 }
 
+@mixin backImage($urlImage) {
+  background-image: url($urlImage);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin skillsBar($w, $h, $bc) {
+  width: $w;
+  height: $h;
+  background-color: $bc;
+}
+
