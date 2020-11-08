@@ -1,6 +1,6 @@
 /** Style **/
 
-html {
+html, html:focus {
     font-size: 62.5%;
 }
 
@@ -20,21 +20,7 @@ li.active a {
     color: #10c9c3;
 }
 
-h2 {
-    margin-top: 102px;
-}
-
 /** Class **/
-
-.pro-skills {
-    margin-top: 40px;
-}
-
-.progress-bar-grey {
-    background-color: #d8d8d8;
-    height: 3px;
-    width: 500px;
-}
 
 .container-img {
     position: relative;
@@ -67,8 +53,6 @@ h2 {
     color: #ffffff;
 }
 
-
-
 .client-list {
     margin: 65px 0;
 }
@@ -77,19 +61,7 @@ h2 {
     background-color: #141414;
 }
 
-.list {
-    margin: 100px 0;
-}
-
 /** ID **/
-
-#bg {
-    background-image: url("../images/header/bg-6.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-}
 
 #design {
     margin-top: 190px;
@@ -105,32 +77,6 @@ h2 {
 
 #signature {
     margin: 40px 0 100px 0;
-}
-
-/*#skills {*/
-/*    margin-top: 166px;*/
-/*}*/
-
-#half-grey {
-    background-color: #e9e9e9;
-}
-
-#ui {
-    background-color: #10c9c3;
-    height: 3px;
-    width: 75%;
-}
-
-#develop {
-    background-color: #10c9c3;
-    height: 3px;
-    width: 90%;
-}
-
-#marketing {
-    background-color: #10c9c3;
-    height: 3px;
-    width: 65%;
 }
 
 /*#progressBar {*/

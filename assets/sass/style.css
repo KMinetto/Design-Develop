@@ -74,6 +74,9 @@ h1.font50, h2.font50, h3.font50, p.font50, span.font50, i.font50 {
 /** Variables **/
 /** Default **/
 /** Classes **/
+.nav-link {
+  color: #000; }
+
 .margin {
   margin: 100px 0px 100px 0px; }
 
@@ -128,12 +131,61 @@ h1.font50, h2.font50, h3.font50, p.font50, span.font50, i.font50 {
   margin: 100px 0px 100px 0px; }
 
 /** ID **/
-.nav-link {
-  color: #000; }
+#bg {
+  background-image: url("../images/header/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
 
 #margin-h2 {
   margin: 100px 0px 0px 0px; }
 
+#skills {
+  height: 570px; }
+  #skills #content-skill {
+    height: 100%; }
+    #skills #content-skill #progress-bar {
+      background-color: #f8f8f8;
+      width: 50%;
+      height: 100%;
+      padding: 160px 85px 160px 100px; }
+      #skills #content-skill #progress-bar #bars-sizes h2 {
+        margin-bottom: 40px; }
+      #skills #content-skill #progress-bar #bars-sizes .grey-bars {
+        margin: 20px 0px 40px 0px;
+        width: 100%;
+        height: 3px;
+        background-color: #e9e9e9; }
+        #skills #content-skill #progress-bar #bars-sizes .grey-bars .blue-bars-ui {
+          width: 75%;
+          height: 3px;
+          background-color: #10c9c3; }
+        #skills #content-skill #progress-bar #bars-sizes .grey-bars .blue-bars-dev {
+          width: 90%;
+          height: 3px;
+          background-color: #10c9c3; }
+        #skills #content-skill #progress-bar #bars-sizes .grey-bars .blue-bars-mark {
+          width: 65%;
+          height: 3px;
+          background-color: #10c9c3; }
+    #skills #content-skill #img-div {
+      height: 100%;
+      width: 50%; }
+      #skills #content-skill #img-div #img {
+        height: 100%;
+        width: 100%; }
+
+@media (max-width: 768px) {
+  #skills {
+    height: 1140px; }
+    #skills #content-skill {
+      min-height: 100%; }
+      #skills #content-skill #progress-bar {
+        height: 50%;
+        width: 100%; }
+      #skills #content-skill #img-div {
+        height: 50%;
+        width: 100%; } }
 #img-container {
   height: 100vh; }
 
@@ -161,8 +213,5 @@ h1.font50, h2.font50, h3.font50, p.font50, span.font50, i.font50 {
 
 #text-area {
   height: 170px; }
-
-/** Media querries **/
-@me;
 
 /*# sourceMappingURL=style.css.map */

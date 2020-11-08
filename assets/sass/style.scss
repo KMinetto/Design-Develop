@@ -7,12 +7,19 @@
 $white: #fff;
 $blue: #10c9c3;
 $black: #000;
+$grey: #e9e9e9;
 
 /** Default **/
 
 /** Classes **/
 
+// Header
+.nav-link {
+  color: $black;
+}
+
 // Banner
+
 
 // About
 .margin {
@@ -76,8 +83,11 @@ $black: #000;
 /** ID **/
 
 // Header
-.nav-link {
-  color: $black;
+
+
+// Banner
+#bg {
+  @include backImage("../images/header/bg.jpg");
 }
 
 // About
@@ -86,26 +96,60 @@ $black: #000;
 }
 
 // Skills
-//#skill-bar {
-//  position: relative;
-//  height: 570px;
-//
-//  #progressBar {
-//    margin: 0;
-//    height: 100%;
-//    @include margin(padding, 164, 85, 164, 100);
-//  }
-//  #img-container {
-//    //position: absolute;
-//    top: 0;
-//    right: 0;
-//    height: 100%;
-//    #skill-img {
-//      height: 100%;
-//      width: 100%;
-//    }
-//  }
-//}
+#skills {
+  height: 570px;
+  #content-skill {
+    height: 100%;
+    #progress-bar {
+      background-color: #f8f8f8;
+      width: 50%;
+      height: 100%;
+      @include margin(padding, 160, 85, 160, 100);
+      #bars-sizes {
+        h2 {
+          margin-bottom: 40px;
+        }
+        .grey-bars {
+          @include margin(margin, 20, 0, 40, 0);
+          @include skillsBar(100%, 3px, $grey);
+          .blue-bars-ui {
+            @include skillsBar(75%, 3px, $blue);
+          }
+          .blue-bars-dev {
+            @include skillsBar(90%, 3px, $blue);
+          }
+          .blue-bars-mark {
+            @include skillsBar(65%, 3px, $blue);
+          }
+        }
+      }
+    }
+    #img-div {
+      height: 100%;
+      width: 50%;
+      #img {
+        @include dimension(height, width, 100%, 100%);
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #skills {
+    height: 570px * 2;
+    #content-skill {
+      min-height: 100%;
+      #progress-bar {
+        height: 50%;
+        width: 100%;
+      }
+      #img-div {
+        height: 50%;
+        width: 100%;
+      }
+    }
+  }
+}
 
 #img-container {
   height: 100vh;
@@ -150,7 +194,3 @@ $black: #000;
 #black-bg {
 
 }
-
-/** Media querries **/
-
-@me
