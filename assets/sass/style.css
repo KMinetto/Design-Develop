@@ -11,28 +11,28 @@ h1.nunito, h2.nunito, p.nunito {
 h1.monserrat, h2.monserrat, p.monserrat {
   font-family: "Monserrat, sans-serif"; }
 
-h1.font12, h2.font12, h3.font12, p.font12 {
+h1.font12, h2.font12, h3.font12, p.font12, span.font12, i.font12 {
   font-size: 1.2rem; }
 
-h1.font15, h2.font15, h3.font15, p.font15 {
+h1.font15, h2.font15, h3.font15, p.font15, span.font15, i.font15 {
   font-size: 1.5rem; }
 
-h1.font16, h2.font16, h3.font16, p.font16 {
+h1.font16, h2.font16, h3.font16, p.font16, span.font16, i.font16 {
   font-size: 1.6rem; }
 
-h1.font18, h2.font18, h3.font18, p.font18 {
+h1.font18, h2.font18, h3.font18, p.font18, span.font18, i.font18 {
   font-size: 1.8rem; }
 
-h1.font19, h2.font19, h3.font19, p.font19 {
+h1.font19, h2.font19, h3.font19, p.font19, span.font19, i.font19 {
   font-size: 1.98rem; }
 
-h1.font30, h2.font30, h3.font30, p.font30 {
+h1.font30, h2.font30, h3.font30, p.font30, span.font30, i.font30 {
   font-size: 3rem; }
 
-h1.font38, h2.font38, h3.font38, p.font38 {
+h1.font38, h2.font38, h3.font38, p.font38, span.font38, i.font38 {
   font-size: 3.8rem; }
 
-h1.font50, h2.font50, h3.font50, p.font50 {
+h1.font50, h2.font50, h3.font50, p.font50, span.font50, i.font50 {
   font-size: 5rem; }
 
 section.grey {
@@ -47,28 +47,28 @@ h1.nunito, h2.nunito, p.nunito {
 h1.monserrat, h2.monserrat, p.monserrat {
   font-family: "Monserrat, sans-serif"; }
 
-h1.font12, h2.font12, h3.font12, p.font12 {
+h1.font12, h2.font12, h3.font12, p.font12, span.font12, i.font12 {
   font-size: 1.2rem; }
 
-h1.font15, h2.font15, h3.font15, p.font15 {
+h1.font15, h2.font15, h3.font15, p.font15, span.font15, i.font15 {
   font-size: 1.5rem; }
 
-h1.font16, h2.font16, h3.font16, p.font16 {
+h1.font16, h2.font16, h3.font16, p.font16, span.font16, i.font16 {
   font-size: 1.6rem; }
 
-h1.font18, h2.font18, h3.font18, p.font18 {
+h1.font18, h2.font18, h3.font18, p.font18, span.font18, i.font18 {
   font-size: 1.8rem; }
 
-h1.font19, h2.font19, h3.font19, p.font19 {
+h1.font19, h2.font19, h3.font19, p.font19, span.font19, i.font19 {
   font-size: 1.98rem; }
 
-h1.font30, h2.font30, h3.font30, p.font30 {
+h1.font30, h2.font30, h3.font30, p.font30, span.font30, i.font30 {
   font-size: 3rem; }
 
-h1.font38, h2.font38, h3.font38, p.font38 {
+h1.font38, h2.font38, h3.font38, p.font38, span.font38, i.font38 {
   font-size: 3.8rem; }
 
-h1.font50, h2.font50, h3.font50, p.font50 {
+h1.font50, h2.font50, h3.font50, p.font50, span.font50, i.font50 {
   font-size: 5rem; }
 
 /** Variables **/
@@ -128,8 +128,14 @@ h1.font50, h2.font50, h3.font50, p.font50 {
   margin: 100px 0px 100px 0px; }
 
 /** ID **/
+.nav-link {
+  color: #000; }
+
 #margin-h2 {
   margin: 100px 0px 0px 0px; }
+
+#img-container {
+  height: 100vh; }
 
 #load {
   height: 100px; }
@@ -152,5 +158,11 @@ h1.font50, h2.font50, h3.font50, p.font50 {
 #title, #text-area {
   margin-top: 30px;
   width: 670px; }
+
+#text-area {
+  height: 170px; }
+
+/** Media querries **/
+@me;
 
 /*# sourceMappingURL=style.css.map */
