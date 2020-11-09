@@ -186,8 +186,8 @@ h1.font50, h2.font50, h3.font50, p.font50, span.font50, i.font50 {
       #skills #content-skill #img-div {
         height: 50%;
         width: 100%; } }
-#img-container {
-  height: 100vh; }
+#works {
+  height: 600px; }
 
 #load {
   height: 100px; }

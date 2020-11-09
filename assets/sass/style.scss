@@ -27,6 +27,8 @@ $grey: #e9e9e9;
 }
 
 // Works
+
+
 .button-works {
   @include absolutePosition(absolute, 50%, 50%);
   @include dimension(height, width, 54px, 180px);
@@ -151,11 +153,12 @@ $grey: #e9e9e9;
   }
 }
 
-#img-container {
-  height: 100vh;
+// Works
+#works {
+  height: 600px;
 }
 
-// Works
+
 #load {
   height: height(100px);
   #load-more {
