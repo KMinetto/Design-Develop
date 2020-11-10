@@ -187,7 +187,9 @@ h1.font50, h2.font50, h3.font50, p.font50, span.font50, i.font50 {
         height: 50%;
         width: 100%; } }
 #works {
-  height: 600px; }
+  min-height: 600px; }
+  #works .row {
+    min-height: 600px; }
 
 #load {
   height: 100px; }
