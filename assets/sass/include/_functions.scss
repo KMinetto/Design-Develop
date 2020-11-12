@@ -30,7 +30,7 @@ $fontSizes: (
 @each $fontSize, $i in $fontSizes {
   h1, h2, h3, p, span, i {
     &.font#{$fontSize} {
-      font-size: $i;
+      font-size: $i !important;
     }
   }
 }
