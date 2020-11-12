@@ -1,6 +1,6 @@
 /** Style **/
 
-html, html:focus {
+html {
     font-size: 62.5%;
 }
 
@@ -53,20 +53,8 @@ li.active a {
     margin: 40px 0 100px 0;
 }
 
-#bow {
-    font-weight: bold;
-}
-
 #testimonials {
     height: 500px;
-}
-
-#container-carousel {
-    height: 100%;
-}
-
-#row, #myCarousel, #carousel-inner{
-    height: 100%;
 }
 
 #agency {
@@ -89,6 +77,5 @@ a:hover {
 }
 
 button:hover, button:focus {
-    /*background: linear-gradient(to right, #10c9c3 80%, transparent);*/
     border-radius: 30px;
 }

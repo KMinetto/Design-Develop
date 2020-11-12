@@ -40,3 +40,17 @@
   background-color: $bc;
 }
 
+@mixin back($backColor, $border, $borderRadius) {
+  background-color: $backColor;
+  border: $border;
+  border-radius: $borderRadius;
+}
+
+@mixin skew() {
+  -webkit-transform: skew(15deg, 0deg);
+  -moz-transform: skew(15deg, 0deg);
+  -ms-transform: skew(15deg, 0deg);
+  -o-transform: skew(15deg, 0deg);
+  transform: skew(15deg, 0deg);
+}
+

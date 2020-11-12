@@ -26,6 +26,12 @@ h1.font18, h2.font18, h3.font18, p.font18, span.font18, i.font18 {
 h1.font19, h2.font19, h3.font19, p.font19, span.font19, i.font19 {
   font-size: 1.98rem; }
 
+h1.font22, h2.font22, h3.font22, p.font22, span.font22, i.font22 {
+  font-size: 2.2rem; }
+
+h1.font24, h2.font24, h3.font24, p.font24, span.font24, i.font24 {
+  font-size: 2.4rem; }
+
 h1.font30, h2.font30, h3.font30, p.font30, span.font30, i.font30 {
   font-size: 3rem; }
 
@@ -61,6 +67,12 @@ h1.font18, h2.font18, h3.font18, p.font18, span.font18, i.font18 {
 
 h1.font19, h2.font19, h3.font19, p.font19, span.font19, i.font19 {
   font-size: 1.98rem; }
+
+h1.font22, h2.font22, h3.font22, p.font22, span.font22, i.font22 {
+  font-size: 2.2rem; }
+
+h1.font24, h2.font24, h3.font24, p.font24, span.font24, i.font24 {
+  font-size: 2.4rem; }
 
 h1.font30, h2.font30, h3.font30, p.font30, span.font30, i.font30 {
   font-size: 3rem; }
@@ -108,10 +120,54 @@ h1.font50, h2.font50, h3.font50, p.font50, span.font50, i.font50 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); }
-    .carousel-sec .carousel-item .carousel-div {
-      min-height: 100%; }
-      .carousel-sec .carousel-item .carousel-div .carousel-quotes {
-        font-weight: bold; }
+    .carousel-sec .carousel-item .author {
+      margin-top: 40px; }
+
+.carousel-fade .carousel-inner .carousel-item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity; }
+
+.carousel-fade .carousel-inner .carousel-item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0; }
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1; }
+
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.carousel-fade .carousel-control {
+  z-index: 2; }
+
+.carousel-indicators .active {
+  height: 15px;
+  width: 20px;
+  margin: 0;
+  background-color: #fff;
+  border: none;
+  border-radius: 4px; }
+
+.carousel-indicators li {
+  height: 15px;
+  width: 20px;
+  margin: 0;
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  -webkit-transform: skew(15deg, 0deg);
+  -moz-transform: skew(15deg, 0deg);
+  -ms-transform: skew(15deg, 0deg);
+  -o-transform: skew(15deg, 0deg);
+  transform: skew(15deg, 0deg); }
 
 .inputs {
   border: none;
@@ -187,26 +243,69 @@ h1.font50, h2.font50, h3.font50, p.font50, span.font50, i.font50 {
         height: 50%;
         width: 100%; } }
 #works {
-  min-height: 600px; }
+  height: 600px; }
   #works .row {
-    min-height: 600px; }
+    height: 100%; }
+    #works .row .img-container {
+      position: relative;
+      height: 300px;
+      width: 50%;
+      transition: .7s; }
+      #works .row .img-container .image-img {
+        display: block;
+        height: 100%;
+        width: 100%; }
+        #works .row .img-container .image-img .btn-div {
+          position: absolute;
+          top: 0;
+          left: 0;
+          transform: translate(0, 0);
+          height: 100%;
+          width: 100%;
+          background-color: rgba(0, 0, 0, 0.6);
+          opacity: 0;
+          transition: opacity 0.5s; }
+          #works .row .img-container .image-img .btn-div .btn-project {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 54px;
+            width: 180px;
+            color: #fff;
+            background-color: #10c9c3;
+            border: none;
+            text-transform: uppercase;
+            transition: .7s; }
+        #works .row .img-container .image-img .btn-div:hover {
+          opacity: 1; }
 
+@media (max-width: 768px) {
+  #works {
+    height: 1200px; }
+    #works .row {
+      min-height: 100%; } }
 #load {
   height: 100px; }
   #load #load-more {
     text-transform: uppercase; }
 
 #process {
+  margin-top: 100px;
   font-weight: bold; }
 
 #processpara {
   margin: 40px 0px 57px 0px; }
 
 #video {
+  height: 570px;
+  width: 100%;
   margin: 0px 0px 100px 0px; }
 
+#need {
+  margin-top: 100px; }
+
 #first-name, #last-name, #title {
-  /*width: 320px;*/
   height: 45px; }
 
 #title, #text-area {
