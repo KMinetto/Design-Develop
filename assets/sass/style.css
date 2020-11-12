@@ -12,34 +12,34 @@ h1.monserrat, h2.monserrat, p.monserrat {
   font-family: "Monserrat, sans-serif"; }
 
 h1.font12, h2.font12, h3.font12, p.font12, span.font12, i.font12 {
-  font-size: 1.2rem; }
+  font-size: 1.2rem !important; }
 
 h1.font15, h2.font15, h3.font15, p.font15, span.font15, i.font15 {
-  font-size: 1.5rem; }
+  font-size: 1.5rem !important; }
 
 h1.font16, h2.font16, h3.font16, p.font16, span.font16, i.font16 {
-  font-size: 1.6rem; }
+  font-size: 1.6rem !important; }
 
 h1.font18, h2.font18, h3.font18, p.font18, span.font18, i.font18 {
-  font-size: 1.8rem; }
+  font-size: 1.8rem !important; }
 
 h1.font19, h2.font19, h3.font19, p.font19, span.font19, i.font19 {
-  font-size: 1.98rem; }
+  font-size: 1.98rem !important; }
 
 h1.font22, h2.font22, h3.font22, p.font22, span.font22, i.font22 {
-  font-size: 2.2rem; }
+  font-size: 2.2rem !important; }
 
 h1.font24, h2.font24, h3.font24, p.font24, span.font24, i.font24 {
-  font-size: 2.4rem; }
+  font-size: 2.4rem !important; }
 
 h1.font30, h2.font30, h3.font30, p.font30, span.font30, i.font30 {
-  font-size: 3rem; }
+  font-size: 3rem !important; }
 
 h1.font38, h2.font38, h3.font38, p.font38, span.font38, i.font38 {
-  font-size: 3.8rem; }
+  font-size: 3.8rem !important; }
 
 h1.font50, h2.font50, h3.font50, p.font50, span.font50, i.font50 {
-  font-size: 5rem; }
+  font-size: 5rem !important; }
 
 section.grey {
   background-color: #e9e9e9; }
@@ -54,34 +54,34 @@ h1.monserrat, h2.monserrat, p.monserrat {
   font-family: "Monserrat, sans-serif"; }
 
 h1.font12, h2.font12, h3.font12, p.font12, span.font12, i.font12 {
-  font-size: 1.2rem; }
+  font-size: 1.2rem !important; }
 
 h1.font15, h2.font15, h3.font15, p.font15, span.font15, i.font15 {
-  font-size: 1.5rem; }
+  font-size: 1.5rem !important; }
 
 h1.font16, h2.font16, h3.font16, p.font16, span.font16, i.font16 {
-  font-size: 1.6rem; }
+  font-size: 1.6rem !important; }
 
 h1.font18, h2.font18, h3.font18, p.font18, span.font18, i.font18 {
-  font-size: 1.8rem; }
+  font-size: 1.8rem !important; }
 
 h1.font19, h2.font19, h3.font19, p.font19, span.font19, i.font19 {
-  font-size: 1.98rem; }
+  font-size: 1.98rem !important; }
 
 h1.font22, h2.font22, h3.font22, p.font22, span.font22, i.font22 {
-  font-size: 2.2rem; }
+  font-size: 2.2rem !important; }
 
 h1.font24, h2.font24, h3.font24, p.font24, span.font24, i.font24 {
-  font-size: 2.4rem; }
+  font-size: 2.4rem !important; }
 
 h1.font30, h2.font30, h3.font30, p.font30, span.font30, i.font30 {
-  font-size: 3rem; }
+  font-size: 3rem !important; }
 
 h1.font38, h2.font38, h3.font38, p.font38, span.font38, i.font38 {
-  font-size: 3.8rem; }
+  font-size: 3.8rem !important; }
 
 h1.font50, h2.font50, h3.font50, p.font50, span.font50, i.font50 {
-  font-size: 5rem; }
+  font-size: 5rem !important; }
 
 /** Variables **/
 /** Default **/
