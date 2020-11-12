@@ -24,7 +24,7 @@ $families: (
 
 $fontSizes: (
   "12": 1.2rem, "15": 1.5rem, "16": 1.6rem, "18": 1.8rem,
-        "19": 1.98rem, "30": 3.0rem, "38": 3.8rem, "50":  5.0rem
+        "19": 1.98rem, "22": 2.2rem, "24": 2.4rem, "30": 3.0rem, "38": 3.8rem, "50":  5.0rem
 );
 
 @each $fontSize, $i in $fontSizes {

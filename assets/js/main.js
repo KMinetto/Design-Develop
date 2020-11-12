@@ -9,6 +9,8 @@ const endFeed = 612;
 const endClients = 735;
 let animateFigures = true
 
+const carousel = document.querySelector('.carousel');
+
 /** NavBar **/
 
 li.forEach(el => {
@@ -51,5 +53,5 @@ document.addEventListener('scroll', () => {
 
 /** Carousel section **/
 
-
+carousel.carousel();
 
