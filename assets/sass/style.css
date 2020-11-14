@@ -242,54 +242,6 @@ h1.font50, h2.font50, h3.font50, p.font50, span.font50, i.font50 {
       #skills #content-skill #img-div {
         height: 50%;
         width: 100%; } }
-#works {
-  height: 600px; }
-  #works .row {
-    height: 100%; }
-    #works .row .img-container {
-      position: relative;
-      height: 300px;
-      width: 50%;
-      transition: .7s; }
-      #works .row .img-container .image-img {
-        display: block;
-        height: 100%;
-        width: 100%; }
-        #works .row .img-container .image-img .btn-div {
-          position: absolute;
-          top: 0;
-          left: 0;
-          transform: translate(0, 0);
-          height: 100%;
-          width: 100%;
-          background-color: rgba(0, 0, 0, 0.6);
-          opacity: 0;
-          transition: opacity 0.5s; }
-          #works .row .img-container .image-img .btn-div .btn-project {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            height: 54px;
-            width: 180px;
-            color: #fff;
-            background-color: #10c9c3;
-            border: none;
-            text-transform: uppercase;
-            transition: .7s; }
-        #works .row .img-container .image-img .btn-div:hover {
-          opacity: 1; }
-
-@media (max-width: 768px) {
-  #works {
-    height: 1200px; }
-    #works .row {
-      min-height: 100%; } }
-#load {
-  height: 100px; }
-  #load #load-more {
-    text-transform: uppercase; }
-
 #process {
   margin-top: 100px;
   font-weight: bold; }
