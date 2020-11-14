@@ -73,10 +73,6 @@ li.active a {
 
 /** Effects **/
 
-a:hover {
-    color: white;
-}
-
 button:hover, button:focus {
     border-radius: 30px;
 }

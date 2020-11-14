@@ -17,6 +17,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/sass/style.css">
+        <link rel="stylesheet" href="assets/sass/works.css">
+        <link rel="stylesheet" href="assets/sass/progress.css">
         <title>We Design & Develop</title>
     </head>
     <body>
@@ -82,33 +84,25 @@
                 </div>
             </section>
             <section id="skills" class="grey">
-                <div id="content-skill" class="d-md-flex">
-                    <div id="progress-bar" class="">
-                        <div id="bars-sizes">
+                <div class="progress">
+                    <div class="progressBars">
+                        <div class="progressContainer">
                             <h2 class="monserrat font30">Professional Skills</h2>
-                            <div>
-                                <p class="text-uppercase">ui/ux <span class="ml-5 monserrat font12">75%</span></p>
-                                <div class="grey-bars">
-                                    <div class="blue-bars-ui"></div>
-                                </div>
+                            <p class="percent text-uppercase monserrat font12">ui / ux design <span class="ml-5">75%</span></p>
+                            <div class="grey-bars">
+                                <div class="blue-bars-ui"></div>
                             </div>
-                            <div>
-                                <p class="text-uppercase">web development <span class="ml-5 monserrat font12">90%</span></p>
-                                <div class="grey-bars">
-                                    <div class="blue-bars-dev"></div>
-                                </div>
+                            <p class="percent text-uppercase monserrat font12">Web Development <span class="ml-5">90%</span></p>
+                            <div class="grey-bars">
+                                <div class="blue-bars-web"></div>
                             </div>
-                            <div>
-                                <p class="text-uppercase">marketing <span class="ml-5 monserrat font12">65%</span></p>
-                                <div class="grey-bars">
-                                    <div class="blue-bars-mark"></div>
-                                </div>
+                            <p class="percent text-uppercase monserrat font12">Marketing <span class="ml-5">65%</span></p>
+                            <div class="grey-bars">
+                                <div class="blue-bars-marketing"></div>
                             </div>
                         </div>
                     </div>
-                    <div id="img-div">
-                        <img src="assets/images/skill/design.jpg" alt="" id="img">
-                    </div>
+                    <div class="img"></div>
                 </div>
             </section>
             <section id="skill" class="blue">
@@ -162,96 +156,50 @@
                 </div>
             </section>
             <section id="works">
-                <div class="container-fluid h-100 m-0 p-0">
-                    <div class="row mr-0">
-                       <div class="col-sm-12 col-md-6 p-0">
-                          <div class="d-flex">
-                              <div class="img-container">
-                                  <div class="image-img">
-                                      <img src="assets/images/work/photo1.jpg" class="w-100 h-100 img-fluid" alt="">
-                                      <div class="btn-div">
-                                          <button type="button" class="btn-project">View Project</button>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="img-container">
-                                  <div class="image-img">
-                                      <img src="assets/images/work/photo2.jpg" class="w-100 h-100 img-fluid" alt="">
-                                      <div class="btn-div">
-                                          <button type="button" class="btn-project">View Project</button>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="d-flex">
-                              <div class="img-container">
-                                  <div class="image-img">
-                                      <img src="assets/images/work/photo5.jpg" class="w-100 h-100 img-fluid" alt="">
-                                      <div class="btn-div">
-                                          <button type="button" class="btn-project">View Project</button>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="img-container">
-                                  <div class="image-img">
-                                      <img src="assets/images/work/photo6.jpg" class="w-100 h-100 img-fluid" alt="">
-                                      <div class="btn-div">
-                                          <button type="button" class="btn-project">View Project</button>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                       </div>
-                        <div class="col-sm-12 col-md-6 p-0">
-                            <div class="d-flex">
-                                <div class="img-container">
-                                    <div class="image-img">
-                                        <img src="assets/images/work/photo3.jpg" class="w-100 h-100 img-fluid" alt="">
-                                        <div class="btn-div">
-                                            <button type="button" class="btn-project">View Project</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="img-container">
-                                    <div class="image-img">
-                                        <img src="assets/images/work/photo4.jpg" class="w-100 h-100 img-fluid" alt="">
-                                        <div class="btn-div">
-                                            <button type="button" class="btn-project">View Project</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="d-flex">
-                                <div class="img-container">
-                                    <div class="image-img">
-                                        <img src="assets/images/work/photo7.jpg" class="w-100 h-100 img-fluid" alt="">
-                                        <div class="btn-div">
-                                            <button type="button" class="btn-project">View Project</button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="img-container">
-                                    <div class="image-img">
-                                        <img src="assets/images/work/photo8.jpg" class="w-100 h-100 img-fluid" alt="">
-                                        <div class="btn-div">
-                                            <button type="button" class="btn-project">View Project</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="parent">
+                    <div class="photo div1">
+                        <div class="btn">
+                            <button class="bttn">View Project</button>
+                        </div>
+                    </div>
+                    <div class="photo div2">
+                        <div class="btn">
+                            <button class="bttn">View Project</button>
+                        </div>
+                    </div>
+                    <div class="photo div3">
+                        <div class="btn">
+                            <button class="bttn">View Project</button>
+                        </div>
+                    </div>
+                    <div class="photo div4">
+                        <div class="btn">
+                            <button class="bttn">View Project</button>
+                        </div>
+                    </div>
+                    <div class="photo div5">
+                        <div class="btn">
+                            <button class="bttn">View Project</button>
+                        </div>
+                    </div>
+                    <div class="photo div6">
+                        <div class="btn">
+                            <button class="bttn">View Project</button>
+                        </div>
+                    </div>
+                    <div class="photo div7">
+                        <div class="btn">
+                            <button class="bttn">View Project</button>
+                        </div>
+                    </div>
+                    <div class="photo div8">
+                        <div class="btn">
+                            <button class="bttn">View Project</button>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section class="grey">
-                <div class="container">
-                    <div class="row">
-                        <div id="load" class="col-12 d-flex justify-content-center align-items-center">
-                            <p id="load-more" class="font12 monserrat">
-                                <a id="anchor-load" class="text-secondary nav-link" href="#">Load More Work</a>
-                            </p>
-                        </div>
-                    </div>
+                <div class="learn">
+                    <p class="load"><a class="text-secondary text-decoration-none" href="#">Load more work</a></p>
                 </div>
             </section>
             <section>

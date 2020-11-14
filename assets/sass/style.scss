@@ -191,56 +191,6 @@ $grey: #e9e9e9;
   }
 }
 
-// Works
-#works {
-  height: 600px;
-  .row {
-    height: 100%;
-
-    .img-container {
-      position: relative;
-      @include dimension(height, width, 300px, 50%);
-      transition: .7s;
-      .image-img {
-        display: block;
-        @include dimension(height, width, 100%, 100%);
-        .btn-div {
-          @include absolutePosition(absolute, 0, 0);
-          @include dimension(height, width, 100%, 100%);
-          background-color: rgba(0, 0, 0, 0.6);
-          opacity: 0;
-          transition: opacity 0.5s;
-          .btn-project {
-            @include absolutePosition(absolute, 50%, 50%);
-            @include dimension(height, width, 54px, 180px);
-            @include button($white, $blue, none, uppercase);
-            transition: .7s;
-          }
-        }
-        .btn-div:hover {
-          opacity: 1;
-        }
-      }
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  #works {
-    height: 600px * 2;
-    .row {
-      min-height: 100%;
-    }
-  }
-}
-
-#load {
-  height: height(100px);
-  #load-more {
-    text-transform: uppercase;
-  }
-}
-
 // Process
 #process {
   margin-top: 100px;
